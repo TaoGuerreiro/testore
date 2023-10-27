@@ -226,6 +226,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.4-x86_64-linux)
+      racc (~> 1.4)
     omnes (0.2.2)
     orm_adapter (0.5.0)
     parallel (1.23.0)
@@ -438,6 +440,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.7-arm64-darwin)
+    sqlite3 (1.6.7-x86_64-linux)
     state_machines (0.6.0)
     state_machines-activemodel (0.9.0)
       activemodel (>= 6.0)
@@ -449,6 +452,8 @@ GEM
       railties (>= 6.0.0)
     stringio (3.0.8)
     tailwindcss-rails (2.0.31-arm64-darwin)
+      railties (>= 6.0.0)
+    tailwindcss-rails (2.0.31-x86_64-linux)
       railties (>= 6.0.0)
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
@@ -484,6 +489,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
