@@ -6,7 +6,7 @@ Bundler.require(*Rails.groups)
 
 module Testore
   class Application < Rails::Application
-    config.assets.css_compressor = Escompress::Compressor.new(loader: :css)
+    # config.assets.css_compressor = Escompress::Compressor.new(loader: :css)
 
     if defined?(FactoryBotRails)
       initializer after: "factory_bot.set_factory_paths" do

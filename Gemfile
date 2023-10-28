@@ -3,8 +3,13 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.2"
 
+gem 'kaminari-i18n', '~> 0.5.0'
+gem 'pg'
+gem 'rails-i18n'
+gem 'solidus_i18n', '~> 2.0'
 gem "bootsnap", require: false
 gem "canonical-rails"
+# gem "escompress", "~> 0.3.0"
 gem "importmap-rails"
 gem "jbuilder"
 gem "puma", "~> 5.0"
@@ -16,16 +21,12 @@ gem "solidus_paypal_commerce_platform", "~> 1.0"
 gem "solidus_support"
 gem "solidus"
 gem "sprockets-rails"
-# gem "sqlite3", "~> 1.4"
-gem 'pg'
 gem "stimulus-rails"
+gem "tailwindcss-rails", "~> 2.0"
 gem "truncate_html"
 gem "turbo-rails"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "view_component", "~> 3.0"
-gem 'solidus_i18n', '~> 2.0'
-gem 'rails-i18n'
-gem 'kaminari-i18n', '~> 0.5.0'
 
 
 
@@ -59,7 +60,3 @@ group :development, :test do
   gem "rubocop-rails", "~> 2.3"
   gem "rubocop-rspec", "~> 2.0"
 end
-
-gem "tailwindcss-rails", "~> 2.0"
-
-gem "escompress", "~> 0.3.0"
