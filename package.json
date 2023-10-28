@@ -1,5 +1,6 @@
 {
-  "devDependencies": {
-    "esbuild": "^0.19.5"
+  "devDependencies": {},
+  "dependencies": {
+    "esbuild-wasm": "^0.19.5"
   }
 }
